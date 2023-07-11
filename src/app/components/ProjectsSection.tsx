@@ -8,26 +8,19 @@ const projects = [
   {
     name: "Gift Expert App",
     description:
-      "Esta es una aplicación web básica para buscar gift en la web utilizando tecnologías HTML, CSS, Javascript y React. Se utilizo la api de Giphy para obtener los gifs.",
+      "Esta es una aplicación web básica para buscar gift en la web utilizando tecnologías HTML, CSS, JavaScript y React. Se utilizo la api de Giphy para obtener los gifs.",
     image: "/GiftExpertApp.png",
     github: "https://github.com/juniorgtt/react-gifexpertapp",
     link: "https://react-gifexpertapp-lime.vercel.app/",
   },
-  // {
-  //   name: "PlatoIO",
-  //   description: "PlatoIO is a to do list app that built using the PERN stack.",
-  //   image: "/platoio.png",
-  //   github: "https://github.com/hqasmei/platoio",
-  //   link: "https://platoio.com/register",
-  // },
-  // {
-  //   name: "Kator Family Photos",
-  //   description:
-  //     "Kator Family Photos is a photos and video digitization service in the LA area.",
-  //   image: "/familyphotos.png",
-  //   github: "https://github.com/hqasmei/katorfamilyphotos",
-  //   link: "https://katorfamilyphotos.com/",
-  // },
+  {
+    name: "New Homepage",
+    description:
+      "Es el diseño el inicio de una página de noticias utilizando tecnologías HTML, CSS, JavaScript,  React y Tailwind CSS.",
+    image: "/newHomePage.png",
+    github: "https://github.com/juniorgtt/News-HomePage",
+    link: "https://news-home-page-kohl.vercel.app/",
+  },
 ];
 
 export const ProjectsSection = () => {
