@@ -38,7 +38,7 @@ export const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="animation-delay-2 flex  animate-slideUpCubiBezier flex-col md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <Link href={project.link} target="_blank">
                       <Image
                         src={project.image}
                         alt=""
